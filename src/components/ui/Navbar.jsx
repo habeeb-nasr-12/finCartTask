@@ -6,10 +6,10 @@ import {
   SearchOutlined,
   ShoppingCartOutlined,
 } from "@ant-design/icons";
-import { CartContext } from "../../context/cart.jsx";
-import { CartItems } from "../cart/CartItems";
+import { CartContext } from "../../context/Cart.jsx";
+import { CartItems } from "../cart/CartItems.jsx";
 
-export const Navbar = ({ onSearch, onCartClick }) => {
+export const Navbar = ({ onSearch }) => {
   const [cartOpen, setCartOpen] = useState(false);
   const [searchVisible, setSearchVisible] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

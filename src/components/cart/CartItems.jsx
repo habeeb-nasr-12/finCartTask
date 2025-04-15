@@ -1,6 +1,6 @@
 import { Button, Empty, Popconfirm } from "antd";
 import { useCallback, useContext, useMemo } from "react";
-import { CartContext } from "../../context/cart.jsx";
+import { CartContext } from "../../context/Cart.jsx";
 import { DeleteOutlined, MinusOutlined, PlusOutlined } from "@ant-design/icons";
 
 export const CartItems = ({ onClose }) => {
