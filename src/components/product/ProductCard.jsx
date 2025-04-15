@@ -2,7 +2,7 @@ import { Card, Carousel, Button, Empty } from "antd";
 import { ShoppingCartOutlined, CheckOutlined } from "@ant-design/icons";
 import React, { useCallback, useContext, useState } from "react";
 import PropTypes from "prop-types";
-import { CartContext } from "../../context/cart";
+import { CartContext } from "../../context/cart.jsx";
 import { formatPrice } from "../../lib/utils";
 
 const getButtonStyles = (isInCart) =>

@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import ErrorBoundary from "./components/error/ErrorBoundary";
-import { CartProvider } from "./context/cart";
+import { CartProvider } from "./context/cart.jsx";
 
 
 

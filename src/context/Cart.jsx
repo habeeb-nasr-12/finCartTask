@@ -9,6 +9,7 @@ const initialState = {
   totalAmount: getLocalStorageItem("cartTotalAmount", parseFloat) || 0,
   totalQuantity: getLocalStorageItem("cartTotalQuantity", parseInt) || 0,
 };
+
 const cartReducer = (state, action) => {
   let newState;
 

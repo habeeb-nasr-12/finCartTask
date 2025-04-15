@@ -6,7 +6,7 @@ import {
   SearchOutlined,
   ShoppingCartOutlined,
 } from "@ant-design/icons";
-import { CartContext } from "../../context/cart";
+import { CartContext } from "../../context/cart.jsx";
 import { CartItems } from "../cart/CartItems";
 
 export const Navbar = ({ onSearch, onCartClick }) => {
