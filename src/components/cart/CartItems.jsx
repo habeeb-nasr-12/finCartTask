@@ -70,7 +70,7 @@ export const CartItems = ({ onClose }) => {
               type="text"
               danger
               icon={<DeleteOutlined />}
-              className="opacity-0 group-hover:opacity-100 transition-opacity"
+              className=" transition-opacity"
             />
           </Popconfirm>
         </div>
